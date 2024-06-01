@@ -1,0 +1,24 @@
+{
+  "homepage": "https://ItzAshOffcl.github.io/zen",
+  "name": "zen-blogging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "express.js": "^1.0.0",
+    "firebase": "^9.21.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
